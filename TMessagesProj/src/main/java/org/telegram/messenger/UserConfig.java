@@ -21,7 +21,7 @@ import org.telegram.tgnet.tl.TL_account;
 
 import java.util.Arrays;
 
- class UserConfig extends BaseController {
+ public class UserConfig extends BaseController {
 
     public static int selectedAccount;
     public final static int MAX_ACCOUNT_DEFAULT_COUNT = 3;
